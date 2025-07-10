@@ -1,0 +1,145 @@
+*{
+    margin: 0 0;
+}
+.logo-text{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: black;
+  font-style: normal;
+  color: #4E47FF;
+}
+
+
+.main-text {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.btn-primary {
+  font-weight: 800;
+  font-style: normal;
+  background: #4E47FF;
+  color: white;
+  padding: 12px 36px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  max-width: 180px;
+  text-align: center;
+}
+
+header {
+    max-width: 1440px;
+    height: 100vh;
+    background-image: url('Assets/Hero-bg.png');
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0 150px;
+}
+
+
+.banner{
+    padding: 158px 267px 220px 267px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text {
+  font-weight: bold;
+  color: #252432;
+  font-size: 58px;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.btn-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 116px 160px 116px 160px;
+}
+
+.action-text{
+    width: 50%;
+    padding-right: 20px;
+    margin: 62px 20px 62px 0;
+}
+
+.section-title{
+    font-weight: bold;
+    font-style: normal;
+    color: #252432;
+    font-size: 42px;
+    margin-bottom: 23px;
+}
+
+.section-text{
+    font-weight: 400;
+    font-style: normal;
+    color: #25243282;
+    font-size: 24px;
+    margin-bottom: 23px;
+}
+.action-img{
+    width: 35%;
+    border-radius: 48px;
+}
+
+.user{
+    background-color: #4d47ff1b;
+    padding: 50px 100px;
+    margin: 116px 160px 116px 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 48px;
+}
+
+.section-items{
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
+}
+
+.user-title{
+    font-weight: bold;
+    font-style: normal;
+    color: #252432;
+    font-size: 38px;
+    margin-bottom: 23px;
+}
+
+.user-stats{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.user-stats p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.518);
+}
+.user-text{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    font-style: normal;
+    color: #4E47FF;
+
+}
