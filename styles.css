@@ -262,7 +262,7 @@ main {
     background-color: #F2EDED;
     /* background-color: #fff; */
     padding: 71px 0px;
-    margin: 92px 150px 0 150px;
+    margin: 0px 150px 0 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
